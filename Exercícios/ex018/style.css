@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');/*h1*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');       /*h2*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');         /*body*/
+
+@font-face {
+    font-family:'love';
+    src: url('fontes/love\ larry\ ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal ;
+}
+
+   body {
+   font-family: 'PT Mono', monospace;
+   font-size: 16px;
+   color: black;
+   text-align: center;
+   }
+
+   h1 {
+       font-family: 'Roboto Mono', monospace;
+       font-size: 3em; 
+       text-align: right;
+   }
+
+   h2 {
+       font-family: 'Great Vibes', cursive;
+       font-size: 3em; 
+   }
+
+   h3 {
+       font-style: italic;
+       font-weight: normal;
+       font-size: 3em;
+       font-family: 'Love', Helvetica, sans-serif;
+       text-align: left;
+   }
