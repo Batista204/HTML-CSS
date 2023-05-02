@@ -15,10 +15,26 @@ caption {
 }
 
 table {  
+    position: relative;
     width: 100%; 
     font-size: 1.1em;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgrey;
+    font-weight: bolder;
+}
+
+table > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: grey;
+}
+
+thead {
+    background-color: grey;
 }
 
 th {
