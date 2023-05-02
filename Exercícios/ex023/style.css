@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+caption {
+    font-size: 1.4em;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+table {  
+    width: 100%; 
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td.Posição {
+    width: 150px;
+    height: 37px;
+    text-align: center;
+}
+
+td.estado {
+    width: 300px;
+    text-align: left;
+}
+
+td.população {
+    text-align: center;
+}
+
+td.mudança {
+    text-align: center;
+    color: green;
+}
+
+tfoot {
+    background-color: grey;
+    text-align: center;
+}
+
+
+
+
