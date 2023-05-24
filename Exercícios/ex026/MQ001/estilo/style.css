@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Css para a Tela */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: lightgreen;
+}
+
+menu li {
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
