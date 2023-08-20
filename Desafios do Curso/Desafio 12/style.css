@@ -15,14 +15,18 @@
     padding: 0px;
 }
 
+body {
+    padding: 0 7%;
+}
+
 html, body {
     font-family: var(--fonte3);
     min-height: 100vh;
-    background-color: rgb(10, 102, 71);
+    background-color: rgb(184, 177, 177);
 }
 
 header {
-    background-color: black;
+    background: linear-gradient(to bottom, black, gray);
     color: white;
     text-align: center;
 }
